@@ -3,10 +3,9 @@ h1{
     font-family: cursive;
 }
 body{
-   margin-top: 50px;
-   background-image: url"photos/image1.jpg" ;
-   background-size: cover;
-   background-repeat: no-repeat;
+ 
+ background-color: blueviolet;
+  
    
 
 }
@@ -25,10 +24,14 @@ button{
 }
 
 #increment-btn{
-    background-color: blue;
+    background-color: red;
    
 }
 
 #save-btn{
    background-color: darkcyan;
+}
+div{
+    max-width: 100%;
+  
 }
