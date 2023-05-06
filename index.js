@@ -1,14 +1,14 @@
-let save_entry = document.getElementById("save_entry")
-let count_people = document.getElementById("count_people")
-let count = 0
-function increment(){
-    count = count+1
-count_people.textContent = count
-}
-function save(){
-    countStr = count + " - "
-    save_entry.textContent += countStr
-    console.log(count)
-    count_people.textContent = 0
-    count = 0
-}
+const fun_facts = (
+    <div>
+        <img src="react-logo.png" width="40px"/>
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>was first released in 2013</li>
+            <li>was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+)
+ReactDOM.render(fun_facts, document.getElementById("root"))
